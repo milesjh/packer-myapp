@@ -73,7 +73,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          repository: troyfluegge/aws-myapp
+          repository: milesjh/aws-myapp
           path: aws-myapp
 
       - name: Configure AWS Credentials
@@ -121,7 +121,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          repository: troyfluegge/azure-myapp
+          repository: milesjh/azure-myapp
           path: azure-myapp
 
       - name: Setup Terraform
